@@ -66,7 +66,7 @@ def start(update):
 @run_async
 def extrct(update, context):
 	
-	gex = ['-1001541044740'] Para excluir grupos da raspagem
+	gex = ['-1001541044740'] #Para excluir grupos da raspagem
 
 	try:
 		chat_id = str(update.message.chat_id)
